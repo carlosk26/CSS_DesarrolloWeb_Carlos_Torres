@@ -1,0 +1,137 @@
+*{ 
+  font-family: 'Dancing Script', cursive;
+
+}
+body {
+    background-color: #02010a;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.container {
+  margin: 3%;
+  padding: 1%;
+  width: 90%;
+	border-radius: 10px 10px 10px 10px;
+  text-align: center;
+}
+header{
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+}
+section{
+background-color:	#82c3a6;
+}
+article{
+  background-color:	#d5c75f;
+}
+
+footer{
+	background-color:	 #C6d5c5;
+	border-radius: 0px 0px 10px 10px;
+}
+li{
+	list-style:none;
+	text-align: left;
+
+}
+
+.caja-header-b li{
+	display: inline-flex;
+}
+
+.caja-header-b a{
+text-decoration: none;
+color: white;
+}
+.caja-header-a h1{
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+}
+.caja-header-a , .caja-header-b{
+  background-color: #5b7989;
+}
+.caja-header-a{
+		border-radius: 10px 10px 0px 0px;
+}
+.caja-footer-d{
+		border-radius:  0px 0px 10px 10px;
+}
+.caja-footer-a, .caja-footer-b,.caja-footer-c, .caja-footer-d{
+	background-color: #C6d5c5;
+}
+.caja-section-a{
+ padding-top: 1%;
+ padding-bottom: 1%;
+}
+.caja-header-b{
+  padding-bottom: 1%;
+  margin-right: 6%;
+}
+.caja-article-a{
+  padding-top: 1%;
+}
+.caja-article-b, .caja-article-paisaje-f,.caja-article-retrato-f,.caja-footer-d{
+   padding-bottom: 1%;
+}
+.caja-footer-a, .caja-article-paisaje-a, .caja-article-retrato-a{
+  padding-top: 1%;
+}
+img{
+  border: 1px solid black;
+}
+section img{
+width: 100%;
+
+}
+article img{
+width: 100%;
+}
+
+
+@media (min-width: 900px) {
+  .caja-header-a , .caja-header-b{
+    width: 45%;
+display: inline-flex;
+}
+article img{
+width: 100%;
+display:inline-flex;
+}
+section img{
+width: 100%;
+
+}
+.caja-article-paisaje-a,.caja-article-paisaje-b,.caja-article-paisaje-c{
+width: 32%;
+display:inline-flex;
+}
+.caja-article-paisaje-d,.caja-article-paisaje-e,.caja-article-paisaje-f{
+width: 32%;
+display:inline-flex;
+}
+.caja-article-retrato-a,.caja-article-retrato-b,.caja-article-retrato-c{
+  width: 32%;
+  display:inline-flex;
+}
+.caja-article-retrato-d,.caja-article-retrato-e,.caja-article-retrato-f{
+  width: 32%;
+  display:inline-flex;
+}
+.caja-article-a,.caja-article-b{
+  width: 49.3%;
+  display:inline-flex;
+}
+.caja-section-a{
+ padding-top: 1%;
+ padding-bottom: 1%;
+  width: 100%;
+  text-align: center;
+}
+.caja-footer-a, .caja-footer-b,.caja-footer-c, .caja-footer-d{
+	width:24%;
+	height: 25%;
+	display: inline-flex;
+}
